@@ -2,10 +2,6 @@
 #
 # kmdots installer
 #
-# Usage:
-#   git clone <your-repo-url>        # clones to ./kmdots by default
-#   ./kmdots/install.sh              # relocates repo to ~/.kmdots, then installs
-#
 # Symlinks dotfiles from ~/.kmdots into $HOME, and symlinks the
 # oh-my-zsh theme into the omz custom themes dir (if/when omz exists).
 #
