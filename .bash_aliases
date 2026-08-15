@@ -38,6 +38,10 @@ if command_exists fastfetch; then
 	}
 	alias cls='clear && nfetch'
 	alias cl='clear && nfetch'
+else
+	alias nfetch='echo "fastfetch is not installed. Please install it to use this command."'
+	alias cls='clear'
+	alias cl='clear'
 fi
 
 alias claer='clear'
