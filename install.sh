@@ -183,6 +183,12 @@ main() {
     echo "    cd $REPO_DIR && git pull"
     echo "  (re-run ./install.sh only if you add new files to manage,"
     echo "   or want the theme picked up after installing oh-my-zsh)"
+    echo
+    warn "Restart your terminal session, or source the relevant rc file,"
+    warn "for these changes to take effect:"
+    echo "    source ~/.bashrc   # if you're on bash"
+    echo "    source ~/.zshrc    # if you're on zsh"
+
 }
 
 main "$@"
